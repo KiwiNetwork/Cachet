@@ -81,6 +81,7 @@ return [
         'manage'      => [
             'no_subscriptions' => 'Je bent momenteel geabonneerd op alle updates.',
             'my_subscriptions' => 'Je bent momenteel geabonneerd op de volgende updates.',
+            'manage_at_link'   => 'Manage your subscriptions at :link',
         ],
         'email' => [
             'subscribe'          => 'Abonneren op e-mail updates.',
@@ -121,8 +122,8 @@ return [
     'meta' => [
         'description' => [
             'incident'  => 'Informatie en updates over het :name incident van :date',
-            'schedule'  => 'Informatie betreffende het onderhoud :name gepland op :startDate',
-            'subscribe' => 'Abonneer je op :app om updates te ontvangen van incidenten en gepland onderhoud',
+            'schedule'  => 'Informatie over het :name onderhoud gepland op :startDate',
+            'subscribe' => 'Abonneer je op :app om updates te ontvangen van incidenten en geplande onderhoudsperioden',
             'overview'  => 'Blijf op de hoogte van de laatste service updates over :app.',
         ],
     ],
